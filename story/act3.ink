@@ -46,7 +46,7 @@ Hanna patrzy na Martę. — Twoja matka też tu siedziała. Tej samej nocy.
 — Bo bałam się, że zostaniesz.
 Hanna wyjmuje z kieszeni kartkę. Jest na niej imię Ewy, a pod nim — imię Marty, przekreślone.
 — Kto je przekreślił?
-— Ja. W 1991. Myślałam, że jeśli skreślę, dzwon nie zauważy.
+— Ja. W 2019. Myślałam, że jeśli skreślę, dzwon nie zauważy.
 Jej ręce drżą. — Nie zauważył. Do teraz.
 
 ~ trust_hanna = trust_hanna + 1
@@ -58,7 +58,7 @@ Jej ręce drżą. — Nie zauważył. Do teraz.
 — Mogę wejść do kościoła od zakrystii — mówi Wiktor. — Znam te drzwi.
 — A jeśli Ewa już nie jest Ewą?
 Wiktor nie odpowiada. Patrzy na jezioro.
-— W 1991 widziałem twoją matkę na pomoście. Była spokojna. To mnie przerażało.
+— W 2019 widziałem twoją matkę na pomoście. Była spokojna. To mnie przerażało.
 — Co masz na myśli?
 — Że może nie trzeba jej było zmuszać.
 Wiktor podaje Marcie latarkę. — Idź do dzwonnicy. Ja zajmę się Ewą. Jeśli nie wrócę, nie czekaj.
@@ -145,7 +145,7 @@ W ciszy słychać tylko oddech — jej i ojca.
 === act3_wieszczy_dzwonnik ===
 # location:I-4
 # event:enemy_variant_dzwonnik
-Dzwónnik stoi na schodach. Ma na sobie szatę organisty, którą Marta widziała na zdjęciu z 1984 roku.
+Dzwónnik stoi na schodach. Ma na sobie szatę organisty, którą Marta widziała na zdjęciu z 2012 roku.
 Nie atakuje. Podnosi rękę i wskazuje na dzwon.
 — Jeden — mówi. — Dwa. Siedem.
 Jego głos jest głosem jej ojca, tylko młodszego.

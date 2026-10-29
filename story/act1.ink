@@ -6,7 +6,7 @@
 # location:V1
 # music:village_day
 Autobus odjeżdża, zanim Marta zdąża wyjąć torbę z bagażnika.
-Silnik kaszle, chowa się za mgłą, zostawia ją na poboczu z magnetofonem i listem ojca w kieszeni.
+Silnik kaszle, chowa się za mgłą, zostawia ją na poboczu z dyktafonem i listem ojca w kieszeni.
 Znak wsi jest przechylony. Litery ktoś poprawił farbą, ale deszcz zjadł połowę.
 Gdzieś za drzewami bije dzwon. Raz. Dwa. Siedem.
 Jest druga po południu. Dzwon nie powinien bić o tej porze.
@@ -22,7 +22,7 @@ Jest druga po południu. Dzwon nie powinien bić o tej porze.
 Hanna Rekòwskô nie podaje ręki. Wyciera szklankę, choć jest sucha.
 — Marta Kreft — mówi, jakby sprawdzała, czy imię się zgadza. — Wróciłaś.
 Na ladzie leży zeszyt z listą nazwisk. Hanna odwraca go okładką do góry.
-Za nią, w szklanej gablocie, wisi różaniec i zdjęcie klasy z 1984 roku.
+Za nią, w szklanej gablocie, wisi różaniec i zdjęcie klasy z 2012 roku.
 
 * [Zapytaj, skąd zna jej imię]
     -> act1_hanna_hub
@@ -80,11 +80,13 @@ Nie wyjaśnia, co to znaczy.
 === act1_square ===
 # location:SQ
 # music:village_day
-Plac jest prawie pusty. Kościół stoi z boku, jakby wstydził się własnej wieży.
+Plac jest prawie pusty. Biały kościół podnosi nad dachami wieżę z zegarem,
+który spóźnia się o trzy minuty. Przed urzędem gminy stoi drewniany Rétnik,
+wyższy od człowieka, i patrzy w stronę lasu.
 Dzwonnica jest zamknięta. Na drzwiach wisi nowa kłódka, a pod nią stara kartka: „Nie dotykać. Konserwacja.”
 Marta wie, że nikt jej nie zgłosił.
 Przy studni siedzi Jadwiga Mòtk i obiera jabłko jednym długim ruchem noża.
-Wiktor Bòrcz grzebie przy Polonezie. Ks. Bernard stoi na schodach kościoła i patrzy na nią, ale nie macha.
+Wiktor Bòrcz grzebie przy starym Polonezie, którego nie da się uruchomić. Ks. Bernard stoi na schodach kościoła i patrzy na nią, ale nie macha.
 
 * [Podejdź do księdza]
     -> act1_priest
@@ -165,7 +167,7 @@ Patrzy w stronę kościoła. Jego siostra, Ewa, stoi na schodach plebanii i pali
 — Boi się?
 — Nie. Czeka.
 Marta nie rozumie. Wiktor patrzy na nią dłużej, niż trzeba.
-— Ty też kiedyś czekałaś. W 1991.
+— Ty też kiedyś czekałaś. W 2019.
 Nie mówi nic więcej.
 
 -> act1_wiktor
@@ -208,7 +210,7 @@ Podaje Marcie jabłko. — Zapamiętaj. Przyda się, kiedy będzie ciemno.
 
 === act1_jadwiga_mother ===
 # portrait:jadwiga
-— Zofia przyszła do mnie w 1991 — mówi Jadwiga. — W nocy. Miała mokre włosy i nie płakała.
+— Zofia przyszła do mnie w 2019 — mówi Jadwiga. — W nocy. Miała mokre włosy i nie płakała.
 — Co powiedziała?
 — „Jeśli Marta wróci, niech nie wierzy, że to woda”.
 Marta chce zapytać więcej, ale Jadwiga wstaje i zabiera nóż.
@@ -222,7 +224,7 @@ Marta chce zapytać więcej, ale Jadwiga wstaje i zabiera nóż.
 # music:house_creak
 Dom Kreftów pachnie kurzem i zimnym piecem.
 Ktoś przestawił meble. Nie splądrował ich — przestawił, jakby chciał, żeby wyglądały na nietknięte.
-Na ścianie wisi fotografia: Antoni, Zofia i Marta, 1991. Twarz Zofii jest zamazana palcem.
+Na ścianie wisi fotografia: Antoni, Zofia i Marta, 2019. Twarz Zofii jest zamazana palcem.
 W kuchni stoi szklanka z herbatą. Herbata jest zimna, ale nie pleśniała.
 
 * [Wejdź do gabinetu]

@@ -115,6 +115,9 @@ dokumentów + 3–4 śmierci.
 | Finał | Noc | 4 | strefa finałowa | — | decyzja | — |
 | **Suma** | | **105** | | **14** | **3** | **6** |
 
+**Uwaga:** `I-4` to wnętrze kościoła w obrębie SQ; w tabeli „kościół” oznacza
+finałową część I-4, a nie piąte wnętrze. Liczba wnętrz pozostaje **4**.
+
 **Skala świata.** Footprint playable ≈ 240 × 180 m. Łączny dystans pierwszego
 przejścia ≈ **3,0–3,4 km**. Przy efektywnej prędkości z postojami
 **1,5–1,7 m/s** daje to **30–38 min samego ruchu** — resztę budżetu zjadają
@@ -220,7 +223,8 @@ uczy się celowania na wariancie A.
 Nazwy wariantów: `docs/bestiary.md` — **A — Głodny**, **B — Dzwónnik**,
 **C — Stary**. Poniżej wyłącznie profil mechaniczny. Wariant C ma 4 instancje;
 finałowa, unikalna instancja to Szymon Kreft (postać z bestiariusza), pozostałe
-3 to „starzy” wieszczi bez własnych imion.
+3 to „starzy” wieszczi bez własnych imion. Finałowy C może mieć skryptowaną
+kwestię w Ink, ale nie jest bossem i nie dodaje nowego AI.
 
 | Parametr | Wariant A | Wariant B | Wariant C |
 |---|---:|---:|---:|
@@ -339,6 +343,9 @@ Zasady wspólne:
 - P1 i P2 są **bramkami faz** — nie da się ich pominąć, więc nie da się
   zablokować przejścia fazy. Fallback fazy (BAL-46) odpala się wyłącznie po
   rozwiązaniu zagadki, więc nie omija bramki.
+- Elementy bestiariusza (np. trzecia zwrotka Bòrowô Cotki, utrudnienia Pùrtka)
+  mogą być ogniwami P1/P2, ale nie tworzą czwartej zagadki ani trwałego fail
+  state; każda ingerencja NPC jest odwracalna.
 
 ### 6.9 Zakończenia — 2
 
@@ -359,10 +366,11 @@ Zasady wspólne:
 
 - Slot 1, toggle (F / Y), brak baterii. Uzasadnienie: zarządzanie baterią to
   czwarty zasób — za dużo przy 6 slotach i 105 min.
-- Wpływ: +6 m zasięgu widzenia gracza w Nocy, **+6 m zasięgu percepcji wroga**
-  (BAL-23).
-- W Dzień i Zmierzchu włączona nie daje przewagi — tylko psuje nastrój.
-  Gra nie karze za jej używanie, ale nie ma po co.
+- Wpływ: +8 m zasięgu widzenia gracza w Nocy (12 → 20 m) i **+6 m zasięgu
+  percepcji wroga w każdej fazie** (BAL-23).
+- W Dzień i Zmierzchu włączona nie daje przewagi, a zwiększa percepcję wroga —
+  to czysta wada, więc gracz ją wyłącza. W Nocy jest wyborem: widzisz dalej,
+  ale wróg widzi cię szybciej.
 
 ### 6.11 NPC i dialog
 
@@ -370,6 +378,8 @@ Zasady wspólne:
   blokada drogi, świadek finału. Rozmieszczenie: 2 w Akcie I, 1 w Akcie II
   (NPC-3, blokada, która barykaduje I-1/I-2 w Nocy — patrz `docs/day-night.md`
   §4.3) i 1 w Akcie III (świadek finału).
+- Konkretne imiona i mapowanie NPC-1…4: `docs/bestiary.md`; suma musi pozostać
+  **4** (2/1/1), a każdy NPC ma jedną funkcję.
 - Dialog w **Ink**, tekst PL/EN, bez dubbingu i bez runtime LLM. Dialog jest
   modalny (pauzuje grę), ale nigdy nie blokuje zagadki ani przejścia fazy.
 - Każdy NPC ma **jedną funkcję**; brak quest logu, brak wskaźnika celu.
@@ -466,7 +476,7 @@ zanim go zobaczy.
 | Ambient bazowy | wiatr, oddech wsi | −18 LUFS | pętla 60–90 s, crossfade 3 s między fazami |
 | Ambient lokalny | las, woda, wnętrza | −20 LUFS | `AudioStreamPlayer3D`, max 8 jednocześnie |
 | Diegetyczne | kroki, świeca, drzwi, broń | −12 LUFS | 3 warianty kroków (chodnik, ziemia, drewno) |
-| Sygnały wroga | kroki wroga, oddech, „zauważenie” | −9 LUFS | **słyszalne z 25 m**, celowo głośniejsze niż ambient |
+| Sygnały wroga | kroki wroga, oddech, „zauważenie” | −9 LUFS | **słyszalne z 20 m (Dzień) / 25 m (Zmierzch, Noc)**, celowo głośniejsze niż ambient |
 | Muzyka | 3 utwory (1/faza) + 2 stingery | −18 LUFS | stinger: start pościgu, śmierć |
 | Finał | 2 cue (po jednym na zakończenie) | −16 LUFS | |
 
@@ -600,7 +610,11 @@ treści, nie pisanie systemów. Kryteria odbioru: `docs/acceptance.md` §A.
    tekstury 256²/128²/512²); brak otwartego konfliktu liczbowego.
 8. **Bestiariusz a fazy:** Mòra opisana jako „efekt nocny w I-3, L1 i I-4”.
    I-3 jest dostępne w Zmierzchu, nie w Nocy — efekt w I-3 musi być
-   zmierzchowy albo przenieść go do I-4/L1. Decyzja: `writer` + `level-designer`.
+   zmierzchowy albo przenieść go do I-4/L1. Jeśli efekt ma zależeć od
+   „wiedzy gracza”, musi używać istniejących flag (dokumenty/P1–P3); nowy
+   system wiedzy → backlog. Decyzja: `writer` + `level-designer`.
 9. **Bestiariusz a NPC/zagadki:** Bòrowô Cotka i Pùrtk muszą zmieścić się w
    4 NPC i 3 zagadkach; test Bòrowô Cotki nie może być czwartą zagadką ani
-   ustawiać `ending_flag`. Decyzja: `writer` + `game-designer` przy review.
+   ustawiać `ending_flag`. Skrót Bòrowô Cotki nie może pomijać zagadki/fazy
+   ani skracać 90–120 min — może tylko skrócić traversal w tej samej strefie.
+   Decyzja: `writer` + `game-designer` przy review.

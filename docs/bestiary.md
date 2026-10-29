@@ -6,7 +6,7 @@
 | Data | 2026-10-29 |
 | Właściciel | `writer` |
 | Status | draft do review Pucka / Mariusza |
-| Powiązane | `AGENTS.md`, `docs/GDD.md`, `docs/scope.md`, `story/outline.md` |
+| Powiązane | `AGENTS.md`, `docs/GDD.md`, `docs/scope.md`, `docs/linia.md`, `story/outline.md` |
 
 > **Zasada nadrzędna.** W grze nie występuje żadna istota, której nazwa nie ma
 > źródła w tym pliku. Nazwy, warianty i imiona NPC są zamknięte w tym dokumencie.
@@ -43,13 +43,18 @@ publikacji; b.d. — brak danych.
    „Nota badawcza” albo w credits.
 3. **Nie robimy z Kaszubów „dzikiego ludu”.** Wiara w duchy współistniała
    z katolicyzmem, nie zamiast niego. Kaszubi w grze mają być konkretni,
-   nowocześni (1998: telewizja, Polonez, telefon na sznurze), a nie kostiumowi.
+   nowocześni (2026: smartfon, używane auto, internet na wsi), a nie kostiumowi.
 4. **Nie przenosimy odpowiedzialności na ofiarę.** Historyczne praktyki
    (np. odcinanie głowy zmarłemu) pokazujemy jako lęk i bezradność społeczności,
    nie jako „sprawiedliwy rytuał” do naśladowania.
-5. **Nie używamy realnej wsi jako „złej”.** Bòrzëszewò jest fikcyjne. Nie
-   lokujemy akcji w istniejącej miejscowości ani nie sugerujemy, że jej
-   mieszkańcy praktykują opisane rzeczy.
+5. **Realna wieś, fikcyjny pakt.** Akcja dzieje się w Lini (powiat wejherowski).
+   Pakt, dzwon z 1898 r., rodzina Kreftów i rytuał są wymyślone. Nigdzie nie
+   sugerujemy, że mieszkańcy Lini lub Kaszubi praktykują opisane rzeczy; nota
+   „co jest fikcją” jest w grze i w credits.
+6. **Rétnik jest figurą, nie wrogiem.** W Lini stoi realna drewniana rzeźba
+   Rétnika (Jan Redźko, według Aleksandra Labudy). W grze jest punktem
+   orientacyjnym na placu i nie ożywa. Nie dostaje wariantu A/B/C.
+   Szczegóły miejsca: `docs/linia.md`.
 6. **Ortografia i wymowa.** Zapis kaszubski ma znaczenie. Przed nagraniem
    lektora lub publikacją dialogów wymagana konsultacja z osobą
    kaszubskojęzyczną. Wymowy w tym pliku są przybliżeniami.
@@ -293,7 +298,7 @@ krajobrazu i frazeologią (np. „chłopisko stolemnego rostu”). Współcześn
 więc nazwa ma drugie, żywe znaczenie kulturowe.
 
 **Rola w grze.**
-Stolemy są **mitem krajobrazowym** Bòrzëszewa:
+Stolemy są **mitem krajobrazowym Kaszub**, a w grze punktem orientacyjnym w Lini:
 
 - wielkie głazy w F2 i nad L1 mają być „kośćmi Stolemów” — punkt orientacyjny
   i zagadka środowiskowa;
@@ -331,7 +336,7 @@ jako kaszubski folklor:
 
 | Element gry | Status | Uwaga |
 |---|---|---|
-| Wieś **Bòrzëszewò** | fikcja | nazwa robocza, nie identyfikować z realną wsią |
+| Wieś **Linia** | realna miejscowość | akcja gry; pakt, dzwon i rodzina są fikcją |
 | Rodzina **Kreftów** i dziedziczny urząd dzwonnika | fikcja | literatura, nie etnografia |
 | **Pakt wsi** — ofiara co siedem lat, imię podawane dzwonowi | fikcja | nie ma źródła; to horrorowa metafora współwiny |
 | **Dzwon z 1898 r.** i jego „serce” | fikcja | inspiracja realnymi dzwonami, ale konkretny obiekt jest wymyślony |
@@ -404,7 +409,7 @@ folklorem” w opisie Steam.
 | V-06 | Wymowy | konsultacja z native speakerem przed lektorem | P0 |
 | V-07 | Nota fikcji | tekst noty „co jest fikcją” do I-3 i credits | P0 |
 | V-08 | Wrażliwość | scena duszenia/mory a paraliż senny — review | P1 |
-| V-09 | Nazwa wsi | sprawdzenie, czy `Bòrzëszewò` nie jest realną miejscowością | P0 |
+| V-09 | Nazwa wsi | Linia jest realna; sprawdzić, czy gra nie sugeruje, że mieszkańcy praktykują pakt, i uzgodnić pisownię z gminą | P0 |
 | V-10 | Prawa | cytaty z Labudy/Sychty — sprawdzić zakres cytowania | P0 |
 
 ---

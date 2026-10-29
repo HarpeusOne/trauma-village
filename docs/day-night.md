@@ -212,7 +212,9 @@ To jednocześnie uzasadnia mechanikę percepcji wroga (+6 m) — światło zdrad
 | Diegetyczne | kroki, świeca (trzask), drzwi | −12 LUFS | |
 | Sygnały wroga | kroki B i C z 25 m, oddech C z 15 m | −9 LUFS | |
 | Muzyka | `amb_night` + stinger przy starcie pościgu | −18 LUFS | stinger −15 LUFS |
-| Reakcja na HP | poniżej 40 HP: warstwa „heartbeat” | −16 LUFS | tylko Noc |
+
+**Poza zakresem v1:** adaptacyjna warstwa heartbeat przy niskim HP to dynamiczny
+miks (scope §3) → `docs/backlog.md` BL-24.
 
 ### 4.3 Drogi
 

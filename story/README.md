@@ -93,7 +93,7 @@ Wszystkie deklaracje w `main.ink`. Typy: `0/1` (liczba), `true/false` (bool),
 | `trust_priest` | int | 0 | zaufanie księdza; wpływa na dostęp do rejestru | Ink |
 | `trust_wiktor` | int | 0 | zaufanie Wiktora; wpływa na broń i finał | Ink |
 | `knows_pact` | bool | false | Marta wie o pakcie co siedem lat | Ink |
-| `knows_mother` | bool | false | Marta zna prawdę o Zofii (1991) | Ink |
+| `knows_mother` | bool | false | Marta zna prawdę o Zofii (2019) | Ink |
 | `knows_offering` | bool | false | Marta wie, że Ewa jest tegoroczną ofiarą | Ink |
 | `knows_birthright` | bool | false | Marta wie, że urodziła się w czepku | Ink |
 | `knows_head` | bool | false | Marta wie, gdzie jest „głowa dzwonu” | Ink |
@@ -229,7 +229,7 @@ robisz to tagiem, nie słowem „otwórz drzwi” w dialogu.
 
 ## 7. Konwencje tekstu
 
-- **Język:** polski, współczesny, lata 90. Kaszubski jako wstawka, nie
+- **Język:** polski, współczesny, 2026. Kaszubski jako wstawka, nie
   „gwara dla ozdoby”.
 - **Kaszubski:** maks. 1–2 krótkie wstawki na scenę, zawsze z kontekstem.
   Nie odmieniamy na siłę; jeśli nie masz pewności — użyj polskiego.
@@ -241,7 +241,7 @@ robisz to tagiem, nie słowem „otwórz drzwi” w dialogu.
   „Marta: (myśli)” — myśli jako narracja.
 - **Horror:** sugerujemy, nie opisujemy wnętrzności. Jedna konkretna rzecz
   (dźwięk, zapach, cień) działa lepiej niż lista.
-- **Brak współczesnego slangu** („spoko”, „ogarnąć”) — to 1998, ale wieś;
+- **Brak współczesnego slangu** („spoko”, „ogarnąć”) — to 2026, ale wieś;
   używamy języka neutralnego, nie archaizujemy.
 - **Brak przecinków zamiast kropek** w tagach i nazwach.
 

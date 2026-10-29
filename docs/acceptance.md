@@ -44,9 +44,9 @@ Dzień→Zmierzch. Czas: **20–25 min**. Wszystkie systemy w wersji finalnej.
 | VS-F03 | Celowanie + strzał obiema broniami | 100 strzałów, 0 crashy, 0 błędów w logu | TH |
 | VS-F04 | Rejestracja trafienia w nieruchomy cel z 10 m | 100/100 trafień (raycast, cel 1 m²) | TH |
 | VS-F05 | Obrażenia broni zgodne z BAL-10/BAL-14 | pistolet = 25, strzelba = 60 (10×6) | TH |
-| VS-F06 | HP wroga zgodne z BAL-20/BAL-21 | A: 2 strzały pistoletu; B: 4 strzały | TH |
+| VS-F06 | HP wroga zgodne z BAL-20/BAL-21 | A: 2 strzały w tors; B: 4 strzały w tors | TH |
 | VS-F07 | Zagadka P1 — łańcuch 3 przedmiotów | rozwiązanie w 6 ± 3 min, 0 utraconych przedmiotów | PT |
-| VS-F08 | Zapis i odczyt na 2 świecach | 10 cykli save→load, stan 100% zgodny (HP, amunicja, plecak, faza, świece, wrogowie, drzwi, zagadki, NPC) | TH |
+| VS-F08 | Zapis i odczyt na 2 świecach | 10 cykli save→load, stan 100% zgodny (HP, amunicja, plecak, faza, świece, wrogowie, drzwi, zagadki, NPC); 3 próby przerwania zapisu wrogiem → 0 przerwań | TH |
 | VS-F09 | Plecak 6 slotów | 6 przedmiotów wchodzi, 7. odrzucony z komunikatem | TH |
 | VS-F10 | Sterowanie pada i klawiatury | pełne przejście slice na obu urządzeniach | PT |
 | VS-F11 | Przełączenie PL↔EN | bez restartu, ≤ 2 s, 0 brakujących kluczy | LT + AU |

@@ -9,6 +9,7 @@
 Zmierzch nie przychodzi z nieba. Wchodzi między domy, jakby ktoś zamknął drzwi po kolei.
 W oknach gasną światła. Na placu stoją ludzie, ale żaden nie patrzy na Martę.
 Dzwon milczy. To gorsze niż bicie.
+Marta sprawdza telefon. Jedna kreska zasięgu, potem nic.
 Za kościołem coś idzie wzdłuż muru — wolno, rytmicznie, jakby niosło ciężar większy od ciała.
 
 * [Wejdź do kościoła]
@@ -44,8 +45,8 @@ Na kolanach trzyma rejestr dzwonu. Okładka jest z czarnej skóry, brzegi wytart
 === act2_church_register ===
 # portrait:priest
 Ksiądz otwiera rejestr na ostatniej stronie.
-— 1898 — mówi. — Szymon Kreft. 1948. 1970. 1991. 1998.
-Przy każdym roku jest imię i zawód. Przy 1998 imię jest zamazane, ale Marta widzi pierwsze litery: „Ewa B.”.
+— 1898 — mówi. — Szymon Kreft. 1998. 2005. 2012. 2019. 2026.
+Przy każdym roku jest imię i zawód. Przy 2026 imię jest zamazane, ale Marta widzi pierwsze litery: „Ewa B.”.
 — To lista ofiar.
 — To lista imion, które wieś wypowiedziała — poprawia ksiądz. — Dzwon tylko je bierze.
 — Kto je wypowiada?
@@ -74,7 +75,7 @@ Marta patrzy na jego dłonie. Tym razem się nie trzęsą.
 # location:I-3
 # music:school_quiet
 Szkoła jest zamknięta, ale drzwi do izby pamięci są uchylone.
-W środku pachnie papierem i myszami. Na ścianie wisi tablica z nazwiskami uczniów z 1984 roku.
+W środku pachnie papierem i myszami. Na ścianie wisi tablica z nazwiskami uczniów z 2012 roku.
 Marta znajduje swoje nazwisko. Obok jest nazwisko Ewy Bòrcz — dopisane innym atramentem, później.
 W gablocie leży kronika szkolna i zdjęcie klasy. Na zdjęciu wszyscy stoją w rzędzie, a nauczycielka trzyma dzwonek.
 
@@ -98,11 +99,11 @@ Nauczycielka ma dzwonek. Dzwonek jest większy niż powinien.
 
 === act2_school_ledger ===
 # location:I-3
-Kronika szkolna jest prowadzona od 1945 roku. Wpis z 1948 jest krótki:
+Kronika szkolna jest prowadzona od 1945 roku. Wpis z 2005 jest krótki:
 „W wyniku wypadku zmarł nauczyciel. Wieś przyjęła nowego.”
 Pod spodem, inną ręką: „Dzwon wziął imię, nie ciało”.
-W 1970 roku wpis jest jeszcze krótszy: „Zmiana”.
-W 1991: „Zofia Kreft. Wypadek nad jeziorem. Lekcje odwołane”.
+W 2012 roku wpis jest jeszcze krótszy: „Zmiana”.
+W 2019: „Zofia Kreft. Wypadek nad jeziorem. Lekcje odwołane”.
 Marta zamyka kronikę. Papier jest zimny.
 
 ~ knows_pact = true
@@ -181,7 +182,7 @@ Podaje jej strzelbę. Jest ciężka i zimna.
 — Możemy ją wywieźć.
 — Drogę zasypało. A nawet gdyby nie...
 Patrzy na jezioro.
-— W 1991 twoja matka próbowała wyjechać. Doszła do skrętu i zawróciła.
+— W 2019 twoja matka próbowała wyjechać. Doszła do skrętu i zawróciła.
 — Dlaczego?
 — Bo usłyszała dzwon.
 Wiktor podaje jej pudełko naboi. — Weź. I nie strzelaj, jeśli nie musisz. To nie pomaga.
@@ -264,7 +265,7 @@ Za drzwiami coś uderza w dzwon. Raz. Dwa. Siedem.
 
 === act2_father_truth ===
 # portrait:antoni
-— W 1991 twoja matka stanęła przed dzwonem — mówi Antoni. — Miała wyjechać. Zamiast tego wypowiedziała swoje imię.
+— W 2019 twoja matka stanęła przed dzwonem — mówi Antoni. — Miała wyjechać. Zamiast tego wypowiedziała swoje imię.
 — Dlaczego?
 — Bo ja ją o to poprosiłem. Bałem się, że dzwon weźmie ciebie.
 Marta opiera czoło o drzwi.

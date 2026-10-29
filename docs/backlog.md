@@ -47,6 +47,7 @@ zmian” (§3) z podaniem autora i daty.
 | BL-21 | **Fotorealistyczny look (odejście od PS2)** | P2 | nie | Sprzeczne z decyzją artystyczną i budżetem 1 dewelopera. PS2-style jest tani i spójny. | artist |
 | BL-22 | **Wersja mobilna / Switch** | P2 | nie | Nowy port, nowe sterowanie, nowe ograniczenia pamięci. Poza horyzontem v1. | game-designer |
 | BL-23 | **Mòra — mechaniczny hazard nocny** (duszenie, utrata HP, przebudzenia) | P2 | tak | Bestiariusz opisuje morę jako efekt; w v1 zostaje ambientem/narracją bez HP i bez AI. Pełny hazard to drugi system nocny i nowy balans — poza zakresem 1 typu wroga. | writer |
+| BL-24 | **Adaptacyjna warstwa audio przy niskim HP** (heartbeat, oddech) | P1 | tak | Dynamiczny miks jest poza zakresem v1 (scope §3). W v1 stinger + cisza; warstwa HP to tani efekt po premierze, ale wymaga testu miksowania. | programmer |
 
 ---
 
@@ -64,3 +65,4 @@ zmian” (§3) z podaniem autora i daty.
 |---|---|---|---|
 | 0.1 | 2026-10-29 | Utworzenie backlogu, 22 pozycje startowe | game-designer |
 | 0.2 | 2026-10-29 | Dodano BL-23 (Mòra jako mechaniczny hazard); synchronizacja z bestiariuszem | game-designer |
+| 0.3 | 2026-10-29 | Dodano BL-24 (adaptacyjna warstwa audio HP); usunięto ją z day-night jako scope creep | game-designer |

@@ -18,8 +18,8 @@
 
 ## 1. Logline
 
-Listopad 1998. Marta Kreft, konserwatorka dzwonów z Gdańska, wraca do
-kaszubskiej wsi Bòrzëszewò, żeby nagrać zabytkowy dzwon i odnaleźć ojca.
+Listopad 2026. Marta Kreft, konserwatorka dzwonów z Gdańska, wraca do
+kaszubskiej wsi Linia, żeby nagrać zabytkowy dzwon i odnaleźć ojca.
 Ojciec zniknął, dzwon bije o zmierzchu bez dzwonnika, a wieś przygotowuje
 się do Zaduszek, jakby spodziewała się gościa, którego nikt nie chce nazwać.
 W ciągu jednego dnia i jednej nocy Marta odkrywa, że jej rodzina od pokoleń
@@ -51,22 +51,28 @@ narzędziem jest słuch, dokument i rozmowa.
 
 ## 3. Czas i miejsce
 
-- **Czas:** 2 listopada 1998, Dzień Zaduszny. Dzień → zmierzch → noc.
-- **Miejsce:** fikcyjna wieś **Bòrzëszewò** nad jeziorem, Kaszuby.
-  Nazwa fikcyjna; nie identyfikować z realną miejscowością.
+- **Czas:** 2 listopada 2026, Dzień Zaduszny. Dzień → zmierzch → noc.
+- **Miejsce:** **Linia**, wieś w powiecie wejherowskim, na północnym skraju
+  Pojezierza Kaszubskiego i Kaszubskiego Parku Krajobrazowego. Realna
+  miejscowość: kościół Najświętszego Serca Pana Jezusa z białą wieżą i zegarem,
+  urząd gminy z drewnianą figurą Rétnika, sklep, przystanek, rozebrana linia
+  kolejowa za wsią. Pakt, dzwon z 1898 r. i rodzina Kreftów są fikcją.
 - **Mapa:** 11 stref GDD:
-  - **V1** — droga wjazdowa, przystanek PKS, znak wsi.
+  - **V1** — droga wjazdowa, przystanek autobusowy, znak wsi.
   - **V2** — główna ulica, sklep, domy, kapliczki.
   - **V3** — ulica młynna, stary młyn, kanał spustowy.
-  - **SQ** — plac z kościołem, dzwonnicą, sklepem Hanny, studnią.
+  - **SQ** — plac z kościołem NSPJ, dzwonnicą, urzędem gminy, figurą
+    Rétnika, sklepem Hanny i studnią.
   - **I-1** — dom Kreftów (ojciec).
   - **I-2** — stary młyn (Pùrtk).
   - **I-3** — szkoła / izba pamięci.
   - **I-4** — dzwonnica i kościół (finał).
   - **F1** — ścieżka do chaty Jadwigi (Bòrowô Cotka).
   - **F2** — ścieżka na stary cmentarz (grób Szymona).
-  - **L1** — brzeg jeziora (cisza, prawda o Zofii).
+  - **L1** — brzeg jeziora za lasem (cisza, prawda o Zofii).
 - **Pogoda:** bez deszczu; mgła nad jeziorem, mróz w cieniu.
+- **Zasięg:** za lasem znika. Telefon Marty ma jedną kreskę tylko na placu,
+  więc nikt nie przyjedzie jej na pomoc.
 
 ---
 
@@ -75,9 +81,9 @@ narzędziem jest słuch, dokument i rozmowa.
 ### 4.1 Gracz
 
 **Marta Kreft**, 31 lat, konserwatorka dzwonów i nagrań terenowych z Gdańska.
-Urodzona w Bòrzëszewie, wyjechała w 1991 r. po śmierci matki. Nie wierzy
-w duchy; wierzy w dźwięk, dokument i to, co da się nagrać. Ma magnetofon
-kasetowy, latarkę, pistolet ojca i osiem naboi. Nie mówi po kaszubsku
+Urodzona w Lini, wyjechała w 2019 r. po śmierci matki. Nie wierzy
+w duchy; wierzy w dźwięk, dokument i to, co da się nagrać. Ma dyktafon,
+latarkę, pistolet ojca i osiem naboi; telefon działa tylko na placu. Nie mówi po kaszubsku
 płynnie — rozumie więcej, niż przyznaje.
 
 ### 4.2 Czterej NPC (zamknięta lista, `docs/scope.md` §4)
@@ -87,7 +93,7 @@ płynnie — rozumie więcej, niż przyznaje.
 | NPC-1 | **Hanna Rekòwskô** | 56 | dawca informacji | prowadzi sklep i „listę imion”; chce, żeby Marta wyjechała |
 | NPC-2 | **Ks. Bernard Rëbôk** | 64 | blokada | proboszcz; wierzy, że pakt chroni wieś; kontroluje dostęp do dzwonnicy |
 | NPC-3 | **Wiktor „Wëk” Bòrcz** | 29 | dawca przedmiotu | mechanik, przyjaciel z dzieciństwa; daje strzelbę; brat Ewy |
-| NPC-4 | **Jadwiga Mòtk** | 81 | świadek finału | zielarka z F1; pamięta 1948 i 1991; daje pierwszą zwrotkę i prawdę o czepku |
+| NPC-4 | **Jadwiga Mòtk** | 81 | świadek finału | zielarka z F1; pamięta 2005 i 2019; daje pierwszą zwrotkę i prawdę o czepku |
 
 **Zasada:** to są **wszystkie** postacie z dialogiem. Antoni Kreft jest
 postacią fabularną (listy, taśma, finał), nie NPC-5. Bòrowô Cotka, Pùrtk i
@@ -98,7 +104,7 @@ Wieszczy są istotami z bestiariusza, nie NPC.
 - **Antoni Kreft**, 64 — ojciec Marty, organista i dzwonnik. Zniknął
   tydzień przed Zaduszkami. W Aktach I–II obecny przez list, taśmę i ślady.
   W Akcie III znaleziony w I-4, w połowie przemieniony.
-- **Zofia Kreft** — matka Marty, zmarła w 1991 r. Oficjalnie utonęła w L1.
+- **Zofia Kreft** — matka Marty, zmarła w 2019 r. Oficjalnie utonęła w L1.
   Prawda: została podana dzwonowi jako imię, żeby wieś przetrwała.
 - **Szymon Kreft** — dziadek Antoniego, urodzony w czepku, zmarł w 1898 r.
   Pierwszy wieszczy wsi, związany z dzwonem.
@@ -177,7 +183,7 @@ walki. Amunicja: 16 naboi pistoletu, 0 strzelby.
 - List Antoniego do Marty.
 - Rachunek za remont dzwonu (1898).
 - Karta z księgi parafialnej: „Szymon Kreft, ur. w czepku”.
-- Notatka Hanny: lista imion 1970–1998.
+- Notatka Hanny: lista imion 1998–2026.
 - Etykieta z młyna: „nie sypać do kanału”.
 - Kartka z śpiewnika: pierwsza zwrotka.
 
@@ -192,21 +198,21 @@ też jest częścią układu.
 | # | Beat | Strefa | Czas | Treść | Punkt zwrotny |
 |---|---|---|---:|---|---|
 | 1 | Wieś po zmierzchu | SQ | 2 | Światła w oknach gasną; dzwon milknie; na placu stoją ludzie, którzy nie patrzą na Martę. | Marta rozumie, że wieś wie. |
-| 2 | Ścieżka do Jadwigi | F1 | 8 | Bòrowô Cotka testuje Martę; Jadwiga mówi o czepku i 1991; pierwsza zwrotka; świeca 3. | **Marta wie, że urodziła się w czepku.** |
-| 3 | Szkoła | I-3 | 7 | Rejestr 1898; zdjęcie klasy 1984; rysunek Stolema; druga zwrotka w zeszycie; świeca 4. | **Ewa jest tegorocznym imieniem.** |
-| 4 | Brzeg jeziora | L1 | 7 | Wiktor daje strzelbę; opowieść o Zofii; rejestr 1991; cisza przed burzą. | Wiktor prosi Martę, żeby wywiozła Ewę. |
-| 5 | Kościół | SQ | 7 | Ks. Bernard przyznaje się do paktu; rejestr 1998; klucz do dzwonnicy (albo odmowa). | **Ksiądz: „Dzwon nie bierze niewinnych. Bierze te, które wieś wskaże.”** |
+| 2 | Ścieżka do Jadwigi | F1 | 8 | Bòrowô Cotka testuje Martę; Jadwiga mówi o czepku i 2019; pierwsza zwrotka; świeca 3. | **Marta wie, że urodziła się w czepku.** |
+| 3 | Szkoła | I-3 | 7 | Rejestr 1898; zdjęcie klasy 2012; rysunek Stolema; druga zwrotka w zeszycie; świeca 4. | **Ewa jest tegorocznym imieniem.** |
+| 4 | Brzeg jeziora | L1 | 7 | Wiktor daje strzelbę; opowieść o Zofii; rejestr 2019; cisza przed burzą. | Wiktor prosi Martę, żeby wywiozła Ewę. |
+| 5 | Kościół | SQ | 7 | Ks. Bernard przyznaje się do paktu; rejestr 2026; klucz do dzwonnicy (albo odmowa). | **Ksiądz: „Dzwon nie bierze niewinnych. Bierze te, które wieś wskaże.”** |
 | 6 | Stary cmentarz | F2 | 5 | Grób Szymona; brak głowy; trzecia zwrotka; ślad po wykopaniu. | **Marta wie, że głowa jest w fundamencie dzwonu.** |
 | 7 | Dzwonnica | SQ | 2 | Antoni za drzwiami; jego głos; „nie wchodź, dopóki nie będziesz znała imienia”. | **P2 rozwiązane → Akt III.** |
 
 **Zagadka P2 — „Rejestr dzwonu” (sekwencja 4 ogniw).**
 Cztery mosiężne tabliczki z latami i imionami:
 - **1898** — I-3, w gablocie z kroniką szkoły.
-- **1948** — F1, w chacie Jadwigi (tabliczka służy jako podkładka pod garnek).
-- **1991** — L1, w kapliczce nad jeziorem (tabliczka przybita do deski).
-- **1998** — SQ, w kościele (ksiądz oddaje ją, jeśli `trust_priest >= 1`).
+- **2005** — F1, w chacie Jadwigi (tabliczka służy jako podkładka pod garnek).
+- **2019** — L1, w kapliczce nad jeziorem (tabliczka przybita do deski).
+- **2026** — SQ, w kościele (ksiądz oddaje ją, jeśli `trust_priest >= 1`).
 
-Gracz układa je na **kole dzwonu** w kolejności: 1898 → 1948 → 1991 → 1998.
+Gracz układa je na **kole dzwonu** w kolejności: 1898 → 2005 → 2019 → 2026.
 Każda tabliczka ma na odwrocie fragment zwrotki; po ułożeniu powstaje
 pełny tekst. Błąd = natychmiastowy reset (0 kary), zgodnie z GDD.
 
@@ -219,13 +225,13 @@ wchodzi w L1 (Wiktor). Amunicja: +20 pistolet, +8 strzelba.
 
 **Dokumenty (8 z ~25):**
 - Rejestr dzwonu 1898.
-- Kronika szkolna 1984 (zdjęcie klasy, imiona).
+- Kronika szkolna 2012 (zdjęcie klasy, imiona).
 - Zeszyt Ewy (wiersz o dzwonie).
-- List Zofii do Antoniego (1991).
+- List Zofii do Antoniego (2019).
 - Protokół parafialny „o zabezpieczeniu dzwonu”.
 - Notatka Wiktora o silniku Poloneza (komizm).
-- Tabliczka 1948.
-- Tabliczka 1991.
+- Tabliczka 2005.
+- Tabliczka 2019.
 
 ---
 
@@ -295,7 +301,7 @@ Marta wyjmuje głowę Szymona z fundamentu, kładzie ją między stopami
 wieszczego i przecina koronę dzwonu. Dzwon pęka z dźwiękiem, którego nie
 słyszała żadna wieś. Szymon rozpada się w proch; Antoni umiera jako człowiek,
 z imieniem na ustach. O świcie wieś jest pusta — ci, którzy przeżyli, odchodzą
-drogą przez las. Marta nagrywa wszystko na kasetę. W epilogu (1999) badacze
+drogą przez las. Marta nagrywa wszystko na kasetę. W epilogu (2027) badacze
 znajdują taśmę i notatnik Jadwigi; wieś zostaje wykreślona z map, ale imiona
 są zapisane.
 
@@ -311,7 +317,7 @@ Marta wypowiada swoje imię do dzwonu. Antoni budzi się na podłodze dzwonnicy,
 nie pamiętając, po co tam wszedł. Wieś wraca do życia: światła, psy, radio.
 Nikt nie pamięta Marty — nawet Wiktor, nawet Hanna. Marta zostaje w dzwonnicy,
 starzeje się o siedem lat w jedną noc, a jej imię jest tym, które dzwon
-powtarza. W ostatniej scenie (2005) do wsi przyjeżdża młoda kobieta z
+powtarza. W ostatniej scenie (2033) do wsi przyjeżdża młoda kobieta z
 magnetofonem; Marta bije w dzwon raz i mówi: „Nie licz uderzeń”.
 
 **Wariant z `witness_flag`:** Jadwiga jako jedyna pamięta Martę i zostawia
@@ -351,21 +357,21 @@ akapit epilogu (`docs/GDD.md` §6.9).
 | 5 | Etykieta młyna | I-2 | naprowadza na Pùrtka |
 | 6 | Pierwsza zwrotka | SQ | P1/P3 |
 | 7 | Rejestr 1898 | I-3 | P2 |
-| 8 | Kronika szkolna 1984 | I-3 | Ewa/Marta |
+| 8 | Kronika szkolna 2012 | I-3 | Ewa/Marta |
 | 9 | Zeszyt Ewy | I-3 | empatia |
-| 10 | List Zofii 1991 | L1 | prawda o matce |
+| 10 | List Zofii 2019 | L1 | prawda o matce |
 | 11 | Protokół parafialny | SQ | współwina księdza |
 | 12 | Notatka Wiktora | L1 | komizm/relacja |
-| 13 | Tabliczka 1948 | F1 | P2 |
-| 14 | Tabliczka 1991 | L1 | P2 |
-| 15 | Tabliczka 1998 | SQ | P2 |
+| 13 | Tabliczka 2005 | F1 | P2 |
+| 14 | Tabliczka 2019 | L1 | P2 |
+| 15 | Tabliczka 2026 | SQ | P2 |
 | 16 | Nota Jadwigi o czepku | F1 | `knows_birthright` |
 | 17 | Rysunek Stolema | I-3 | orientacja F2 |
 | 18 | Mapa cmentarza | F2 | orientacja |
 | 19 | Nagrobek Szymona | F2 | P3 |
 | 20 | Taśma Antoniego | SQ | głos ojca |
 | 21 | Gazeta 1898 | I-3 | kontekst |
-| 22 | Rachunek za dzwon 1948 | SQ | cykl |
+| 22 | Rachunek za dzwon 2005 | SQ | cykl |
 | 23 | Notatka o „pustej nocy” | I-1 | folklor |
 | 24 | Karta biblioteczna | I-3 | postać Jadwigi |
 | 25 | Nota badawcza „co jest fikcją” | I-3 | bezpieczeństwo kulturowe |
@@ -398,9 +404,11 @@ przepisuje stan świata do flag narracyjnych (`story/README.md` §4).
 
 ## 13. Bezpieczeństwo kulturowe w fabule
 
-1. **Bòrzëszewò jest fikcyjne.** W grze i w materiałach prasowych musi być
-   jasne, że nie chodzi o realną wieś.
-2. **Pakt jest fikcją.** Nie przypisujemy Kaszubom rytualnych ofiar.
+1. **Linia jest realna, pakt nie.** Akcja dzieje się w prawdziwej Lini, ale
+   ofiara co siedem lat, dzwon z 1898 r. i rodzina Kreftów są wymyślone.
+   W grze, w credits i w materiałach prasowych musi być to powiedziane wprost.
+2. **Pakt jest fikcją.** Nie przypisujemy Kaszubom ani mieszkańcom Lini
+   rytualnych ofiar.
    W I-3 leży nota „co jest fikcją” (dokument #25).
 3. **Kaszubski nie jest klątwą.** Marta rozumie język, ale się nim nie
    popisuje. Ks. Bernard modli się po polsku i po kaszubsku; to normalne.
@@ -429,7 +437,7 @@ przepisuje stan świata do flag narracyjnych (`story/README.md` §4).
    zmienia wariant wroga (Stary) i jeden obraz w epilogu.
 6. **Czy dzwon ma imię?** Roboczo nie. Jeśli tak, musi być źródło lub
    wyraźne oznaczenie fikcji.
-7. **Czy „Bòrzëszewò” nie jest realną wsią?** Do sprawdzenia (V-09).
+7. **Czy gra dość jasno mówi, że pakt jest fikcją?** Nota w I-3 i credits (V-09).
 8. **Czy gra pokazuje ciało Szymona?** Tylko sugeruje; brak gore. Decyzja
    do review z Mariuszem.
 

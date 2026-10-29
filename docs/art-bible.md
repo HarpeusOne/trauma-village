@@ -1,6 +1,6 @@
 # Trauma Village — Art Bible v0.1
 
-Kaszubska wieś, lata 90. Survival horror w estetyce PS2. Dokument źródłowy dla
+Współczesna wieś kaszubska, Linia 2026. Survival horror w estetyce PS2. Dokument źródłowy dla
 wszystkich assetów graficznych. Obowiązuje `artist`, `level-designer` i
 `programmer` przy shaderach.
 
@@ -141,7 +141,7 @@ Wszystkie matowe, wysoki roughness (0.75–0.95), specular minimalny.
 | `portrait_npc_elder` | starsza kobieta, chusta, surowe rysy | 512×512 | 512 / 256 |
 | `portrait_npc_priest` | ksiądz, czarny płaszcz, zmęczone oczy | 512×512 | 512 / 256 |
 | `portrait_npc_neighbor` | sąsiad, wiatrówka, nieufny | 512×512 | 512 / 256 |
-| `portrait_npc_child` | dziecko, 10 lat, ubranie z lat 90. | 512×512 | 512 / 256 |
+| `portrait_npc_child` | dziecko, 10 lat, współczesne ubranie | 512×512 | 512 / 256 |
 | `portrait_enemy_silhouette` | sylwetka wroga, wysoka, chuda, bez twarzy | 512×512 | 512 / 256 |
 
 ### Tekstury i propsy (v1, następne partie)
@@ -170,7 +170,9 @@ Wszystkie matowe, wysoki roughness (0.75–0.95), specular minimalny.
 - Tekst, litery, cyfry, napisy, plakaty z treścią, znaki drogowe z tekstem.
 - NSFW, nagość, gore eksponowane, wizerunki realnych osób.
 - Logotypy, marki, znaki towarowe, cudze postacie i modele.
-- Współczesne przedmioty po 1999: smartfony, nowoczesne auta, LED, plastik.
+- Nowoczesne przedmioty „z salonu” i sterylne wnętrza: wieś w 2026 jest biedna,
+  ale nie retro. Smartfon Marty jest dozwolony jako rekwizyt (ekran, latarka,
+  brak zasięgu), byle nie dominował kadru.
 - Fotorealizm, HDR, bloom, lens flare, chromatic aberration, ray tracing.
 - Nasycone kolory, neon, czysta czerń i biel, tęcza.
 - Fantasy: rogi, skrzydła, ogień z oczu, zmyślone imiona demonów.

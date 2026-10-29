@@ -1,6 +1,6 @@
 # Trauma Village — kontekst projektu
 
-Gra: linearny survival horror w stylu PS2, Kaszuby, lata 90.
+Gra: linearny survival horror w stylu PS2, Kaszuby, Linia 2026.
 Dzień → zmierzch → noc na tej samej przestrzeni. OTS, pistolet + strzelba,
 zagadki środowiskowe, 1 typ wroga, 2 zakończenia. Silnik: Godot 4.7.
 
@@ -32,6 +32,15 @@ ocenia grywalność.
 - **Folklor:** żadnych zmyślonych nazw demonów; każde imię ma źródło w
   `docs/bestiary.md`. Wątpliwości → konsultacja, nie zgadywanie.
 - **Język:** kod i nazwy po angielsku, treść gry PL, tłumaczenie EN.
+
+## Uruchamianie subagentów
+
+- Tylko przez narzędzie `Task` z sesji opencode **otwartej w katalogu projektu**.
+- `opencode run --agent <name>` nie obsługuje `mode: subagent` — cofa się do
+  `build` z pełnymi uprawnieniami. Nie używać do pracy zespołu.
+- Subagenty nie podpisują się jako „Pucek”; Pucek to wyłącznie reżyser.
+- Commity i push są zablokowane hookami `.git/hooks/pre-commit` i `pre-push`.
+  Obejście wyłącznie świadomie: `TV_ALLOW_COMMIT=1 git commit ...`.
 
 ## Komendy
 

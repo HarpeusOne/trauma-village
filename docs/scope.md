@@ -108,7 +108,7 @@ szlifu. Horror to tempo i audio, nie liczba mechanik.
 |---|---|---|
 | Zespół | 1 deweloper (Mariusz) + agenci | Rzeczywistość projektu |
 | Budżet czasu | 10 h/tydz. | Deklaracja Mariusza |
-| Zakres czasowy v1 | 9 miesięcy (≈390 h) | 11 stref × ~20 h + systemy ~80 h + QA ~40 h |
+| Zakres czasowy v1 | 9 miesięcy (≈390 h) | 11 stref × ~20 h + systemy ~80 h + QA ~40 h + bufor ~50 h |
 | Kolejność | VS-1 → Akt I → Akt II → Akt III → PL/EN QA → demo | Najpierw systemy, potem treść; demo po pełnej grze |
 | Definition of done | `docs/acceptance.md` | Mierzalne, nie „działa dobrze” |
 

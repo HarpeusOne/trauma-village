@@ -14,10 +14,10 @@ Szymon rozpada się w proch. Antoni upada na kolana, ale jego cień jest już ty
 — Powiedz im — mówi. — Wszystkim.
 O świcie wieś jest pusta. Domy stoją otwarte, piece wystygły, na płotach wiszą ubrania.
 Marta idzie drogą przez las. Za nią dzwon milczy po raz pierwszy od stu lat.
-W Gdańsku nagrywa taśmę. Na okładce pisze: „Bòrzëszewò, 2 listopada 1998. Dzwon bez serca”.
+W Gdańsku odsłuchuje nagranie. Na okładce pisze: „Linia, 2 listopada 2026. Dzwon bez serca”.
 
 { witness_flag:
-    W archiwum w 1999 roku badacze znajdują zeszyt Jadwigi Mòtk. Jest w nim lista imion i jedno zdanie: „Marta Kreft przerwała dzwon”.
+    W archiwum w 2027 roku badacze znajdują zeszyt Jadwigi Mòtk. Jest w nim lista imion i jedno zdanie: „Marta Kreft przerwała dzwon”.
 }
 To nie jest happy end. To jest koniec długu.
 
@@ -34,7 +34,7 @@ Na dole wieś wraca do życia: szczekają psy, w radio gra piosenka, ktoś woła
 Nikt nie woła Marty.
 W sklepie Hanna pyta Wiktora, czy zna tę kobietę, która stoi w oknie dzwonnicy. Wiktor wzrusza ramionami.
 Marta zostaje. Pierwszego dnia liczy uderzenia. Siódmego przestaje.
-Siedem lat później do wsi przyjeżdża młoda kobieta z magnetofonem. Marta bije w dzwon raz.
+Siedem lat później do wsi przyjeżdża młoda kobieta z dyktafonem. Marta bije w dzwon raz.
 — Nie licz uderzeń — mówi.
 Kobieta podnosi głowę. Przez chwilę wygląda jak Marta.
 

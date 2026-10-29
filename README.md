@@ -33,9 +33,11 @@ dopiero potem piszemy systemy.
 
 ## Wzorzec miejsca: Linia
 
-Wieś w grze jest fikcyjna, ale wygląd bierzemy z prawdziwej Lini w powiecie
-wejherowskim: biały kościół z wieżą i zegarem, kostka na placu, kute płoty,
-betonowe słupy z kablami, zarastająca linia kolejowa, mgła nad polami.
+Akcja dzieje się w prawdziwej Lini w powiecie wejherowskim, w listopadzie
+2026. Bierzemy stamtąd biały kościół z wieżą i zegarem, kostkę na placu, kute
+płoty, betonowe słupy z kablami, zarastającą linię kolejową i mgłę nad polami.
+Pakt, dzwon i rodzina Kreftów są fikcją, szczegóły w `docs/linia.md`.
+
 Wszystko renderowane w stylu PS2: mało poligonów, niskiej rozdzielczości
 tekstury, płaskie światło, dithering i ząbki na krawędziach. To look-dev,
 nie screenshoty z gry.

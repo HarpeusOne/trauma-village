@@ -1,6 +1,6 @@
 # Trauma Village
 
-Survival horror robiony w Godocie 4.7. Kaszuby, lata 90. Jedna wieś, jeden
+Survival horror robiony w Godocie 4.7. Kaszuby, dziś. Jedna wieś, jeden
 dzień, jedna noc i jedna droga wyjścia.
 
 Nie jesteś żołnierzem. Masz pistolet z 44 nabojami, strzelbę z 10 i wieś, która
@@ -31,22 +31,21 @@ ulica": jedna ulica, plac, jedno wnętrze i przejście z dnia w zmierzch.
 Postęp widać w `docs/`, a nie w kodzie, bo najpierw ustalamy zakres i zasady,
 dopiero potem piszemy systemy.
 
-## Wczesne rendery
+## Wzorzec miejsca: Linia
 
-Concept arty z pierwszego przebiegu generatora, nie screenshoty z gry. Styl,
-paleta i oświetlenie będą jeszcze zmieniane.
+Wieś w grze jest fikcyjna, ale wygląd bierzemy z prawdziwej Lini w powiecie
+wejherowskim: biały kościół z wieżą i zegarem, kostka na placu, kute płoty,
+betonowe słupy z kablami, zarastająca linia kolejowa, mgła nad polami. Te
+obrazki to look-dev, nie screenshoty z gry.
 
-![Wiejski dzień](art/final/bg_village_day.png)
-*Dzień. Ta sama droga, którą przejdziesz trzy razy.*
+![Plac przy kościele](art/ref/linia/square_day.png)
+*Plac. Biały kościół, kostka, mokry listopad.*
 
-![Zmierzch nad wsią](art/final/bg_village_dusk.png)
-*Zmierzch. Światło ucieka, mgła wchodzi od lasu.*
+![Droga przez wieś](art/ref/linia/street_fog.png)
+*Droga. Asfalt z łatami, słupy i czerwony dach.*
 
-![Wnętrze chaty](art/final/bg_cottage_interior.png)
-*Wnętrze. Tu światło wpada tylko przez jedno okno.*
-
-Noc i portrety wyszły w innym, bardziej płaskim stylu, więc na razie zostają
-poza galerią. Najpierw trzeba ustalić jedną paletę dla wszystkich faz dnia.
+![Zarastająca linia kolejowa](art/ref/linia/railway.png)
+*Tor za wsią. Nikt nim nie jeździ od lat.*
 
 ## Jak to powstaje
 

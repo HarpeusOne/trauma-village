@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://src/shaders/ps2_surface.gdshader" id="1_ps2"]
+
+[resource]
+shader = ExtResource("1_ps2")
+shader_parameter/tint = Color(0.62, 0.62, 0.68, 1)
+shader_parameter/jitter_strength = 1.0
+shader_parameter/dither_strength = 1.0
+shader_parameter/color_levels = 24.0
+shader_parameter/fog_color = Color(0.025, 0.03, 0.04, 1)
+shader_parameter/fog_start = 9.0
+shader_parameter/fog_end = 42.0
+shader_parameter/virtual_resolution = Vector2(640, 480)

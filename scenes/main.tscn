@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://src/game.gd" id="1_game"]
+[ext_resource type="PackedScene" path="res://scenes/level_test.tscn" id="2_level"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3_player"]
+[ext_resource type="PackedScene" path="res://scenes/hud.tscn" id="4_hud"]
+
+[sub_resource type="Environment" id="Environment_main"]
+background_mode = 1
+background_color = Color(0.015, 0.015, 0.02, 1)
+ambient_light_source = 3
+ambient_light_color = Color(0.22, 0.24, 0.28, 1)
+ambient_light_energy = 0.6
+fog_enabled = false
+tonemap_mode = 0
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_game")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+stretch_shrink = 2
+
+[node name="PS2Viewport" type="SubViewport" parent="SubViewportContainer"]
+physics_object_picking = false
+size = Vector2i(640, 480)
+render_target_update_mode = 4
+
+[node name="World" type="Node3D" parent="SubViewportContainer/PS2Viewport"]
+
+[node name="Level" parent="SubViewportContainer/PS2Viewport/World" instance=ExtResource("2_level")]
+
+[node name="Player" parent="SubViewportContainer/PS2Viewport/World" instance=ExtResource("3_player")]
+position = Vector3(0, 0.05, 8)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewportContainer/PS2Viewport/World"]
+rotation_degrees = Vector3(-52, -35, 0)
+light_color = Color(0.72, 0.76, 0.86, 1)
+light_energy = 1.1
+shadow_enabled = false
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="SubViewportContainer/PS2Viewport/World"]
+environment = SubResource("Environment_main")
+
+[node name="HUD" parent="." instance=ExtResource("4_hud")]

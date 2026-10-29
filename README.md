@@ -31,6 +31,23 @@ ulica": jedna ulica, plac, jedno wnętrze i przejście z dnia w zmierzch.
 Postęp widać w `docs/`, a nie w kodzie, bo najpierw ustalamy zakres i zasady,
 dopiero potem piszemy systemy.
 
+## Wczesne rendery
+
+Concept arty z pierwszego przebiegu generatora, nie screenshoty z gry. Styl,
+paleta i oświetlenie będą jeszcze zmieniane.
+
+![Wiejski dzień](art/final/bg_village_day.png)
+*Dzień. Ta sama droga, którą przejdziesz trzy razy.*
+
+![Zmierzch nad wsią](art/final/bg_village_dusk.png)
+*Zmierzch. Światło ucieka, mgła wchodzi od lasu.*
+
+![Wnętrze chaty](art/final/bg_cottage_interior.png)
+*Wnętrze. Tu światło wpada tylko przez jedno okno.*
+
+Noc i portrety wyszły w innym, bardziej płaskim stylu, więc na razie zostają
+poza galerią. Najpierw trzeba ustalić jedną paletę dla wszystkich faz dnia.
+
 ## Jak to powstaje
 
 Mariusz ustala kierunek, ocenia grywalność i robi playtesty. Pucek (agent

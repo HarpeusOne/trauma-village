@@ -42,14 +42,14 @@ Wszystko renderowane w stylu PS2: mało poligonów, niskiej rozdzielczości
 tekstury, płaskie światło, dithering i ząbki na krawędziach. To look-dev,
 nie screenshoty z gry.
 
-![Plac przy kościele](art/ref/linia/square_day.png)
-*Plac w dzień. Biały kościół, kostka, mokry listopad.*
+![Ulica nocą](art/ref/linia/night_street.png)
+*Ulica nocą. Mokra kostka, jedno okno się świeci.*
 
-![Droga przez wieś](art/ref/linia/street_fog.png)
-*Droga o zmierzchu. Asfalt z łatami, słupy i czerwony dach.*
+![Droga za wsią](art/ref/linia/night_road.png)
+*Droga za wsią. Deszcz, dwie latarnie i las.*
 
-![Plac w nocnej mgle](art/ref/linia/dusk.png)
-*Plac wieczorem. Światła ubywa, mgła wchodzi między domy.*
+![Plac nocą](art/ref/linia/night_square.png)
+*Plac nocą. Wieża kościoła za murem.*
 
 ## Jak to powstaje
 

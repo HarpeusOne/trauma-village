@@ -35,17 +35,19 @@ dopiero potem piszemy systemy.
 
 Wieś w grze jest fikcyjna, ale wygląd bierzemy z prawdziwej Lini w powiecie
 wejherowskim: biały kościół z wieżą i zegarem, kostka na placu, kute płoty,
-betonowe słupy z kablami, zarastająca linia kolejowa, mgła nad polami. Te
-obrazki to look-dev, nie screenshoty z gry.
+betonowe słupy z kablami, zarastająca linia kolejowa, mgła nad polami.
+Wszystko renderowane w stylu PS2: mało poligonów, niskiej rozdzielczości
+tekstury, płaskie światło, dithering i ząbki na krawędziach. To look-dev,
+nie screenshoty z gry.
 
 ![Plac przy kościele](art/ref/linia/square_day.png)
-*Plac. Biały kościół, kostka, mokry listopad.*
+*Plac w dzień. Biały kościół, kostka, mokry listopad.*
 
 ![Droga przez wieś](art/ref/linia/street_fog.png)
-*Droga. Asfalt z łatami, słupy i czerwony dach.*
+*Droga o zmierzchu. Asfalt z łatami, słupy i czerwony dach.*
 
-![Zarastająca linia kolejowa](art/ref/linia/railway.png)
-*Tor za wsią. Nikt nim nie jeździ od lat.*
+![Plac w nocnej mgle](art/ref/linia/dusk.png)
+*Plac wieczorem. Światła ubywa, mgła wchodzi między domy.*
 
 ## Jak to powstaje
 

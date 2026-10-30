@@ -668,9 +668,9 @@
     "height": 576,
     "checkpoint": "sd_xl_base_1.0.safetensors",
     "license": "OpenRAIL++-M",
-    "sha256": "9b78826e652ae75f8ee536854cc61c83c7499996350be5b8244b9738af3c277f",
-    "bytes": 780767,
-    "notes": "look-dev: road out of the village at night, rain; kopia z art/raw/night_busstop_4404_20261029-234725.png",
+    "sha256": "30ac3a35d799e1f9f01a2ce45b694455b47f99836259b0ff0b4178fa577fb827",
+    "bytes": 765691,
+    "notes": "look-dev: road out of the village at night, rain; kopia z art/raw/night_busstop_4404_20261029-234725.png. Edycja 2026-10-30: żółty znak zastąpiony zieloną tablicą wsi Linia/Lëniô (napis kaszubski).",
     "created_at": "2026-10-29T22:47:25+00:00"
   },
   {
